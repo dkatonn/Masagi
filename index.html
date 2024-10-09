@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masagi | Home</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark warna3">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto py-3">
+                <li class="nav-item mb-lg-2">
+                  <a class="nav-link "href="./index.php">Home</a>
+                </li>
+                <li class="nav-item mb-lg-2">
+                  <a class="nav-link" href="./produk.php">Produk</a>
+                </li>
+                <li class="nav-item mb-lg-2">
+                  <a class="nav-link" href="./tentang-kami.php">Tentang kami</a>
+                </li>
+              </ul>
+        </div>
+    </nav>
+<!-- !Navbar -->
+<!-- Menu Pencarian -->
+    <div class="container-fluid banner d-flex align-items-center">
+        <div class="container text-center text-white">
+            <h1>Masagi</h1>
+            <h3>Mau makan apa nih hari ini?</h3>
+            <div class="col-md-8 offset-md-2">
+                <form method="get" action="produk.php">
+                    <div class="input-group input-group-lg my-3">
+                        <input type="search" class="form-control" placeholder="Nama makanan" aria-label="Recipient's username" aria-describedby="basic-addon2" name="keyword">
+                        <button type="submit" class="btn warna2 text-white">Cari</button>
+                    </div>
+                </form>                                                                     
+            </div>
+        </div>
+    </div>
+<!-- !Menu Pencarian -->
+
+<!-- Kategori disini -->
+    <div class="container fluid py-3">
+        <div class="container text-center">
+            <h3>Kategori Pilihan</h3>
+
+            <div class="row mt-3">
+                <div class="col-md-4 mb-3">
+                    <div class="highlighted-kategori kategori-Steak d-flex justify-content-center align-items-center">
+                        <h4 class="text-white"><a class="no-decoration" href="produk.php?kategori=Steak">Steak</a></h4>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="highlighted-kategori kategori-Katsu d-flex justify-content-center align-items-center">
+                        <h4 class="text-white"><a class="no-decoration" href="produk.php?kategori=Katsu">Katsu</a></h4>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="highlighted-kategori kategori-Mie d-flex justify-content-center align-items-center">
+                        <h4 class="text-white"><a class="no-decoration" href="produk.php?kategori=Mie">Mie</a></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- !Kategori Disini -->
+
+<!-- Sedikit tentang kami -->
+    <div class="container-fluid warna3 py-5">
+        <div class="container text-white text-center">
+            <h3>Tentang Masagi</h3>
+            <p class="fs-5">
+                Masagi adalah salah satu masakan rumahan yang terletak di Bekasi Timur Regensi. Makanan rumahan ini terbuat dari bahan-bahan yang di buat sendiri
+            </p>
+        </div>
+    </div>
+<!-- !Sedikit tentang kami -->
+
+<!--Produk-->
+    <div class="container-fluid py-5">
+        <div class="container text-center">
+            <h3>Produk</h3>
+
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="image-box">
+                            <img src="image/cordon.jpg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title">Cordon Steak</h6>
+                            <p class="card-text">Cordon Steak + Potatoes Wadges</p>
+                            <p class="card-text text-harga">Rp.</p>
+                            <a href="#" class="btn btn-primary">Detail Makanan</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="image-box">
+                            <img src="image/cordon.jpg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title">Cordon Steak</h6>
+                            <p class="card-text">Cordon Steak + Potatoes Wadges</p>
+                            <p class="card-text text-harga">Rp.</p>
+                            <a href="#" class="btn btn-primary">Detail Makanan</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="image-box">
+                            <img src="image/cordon.jpg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title">Cordon Steak</h6>
+                            <p class="card-text">Cordon Steak + Potatoes Wadges</p>
+                            <p class="card-text text-harga">Rp.</p>
+                            <a href="#" class="btn btn-primary">Detail Makanan</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="btn btn-outline-primary mt-3" href="./produk.php">Lihat Lebih Banyak</a>  
+        </div>
+    </div>
+<!-- !Produk -->
+
+<!-- Footer -->
+    <div class="container-fluid py-2 content-subscribe text-light">
+        <div class="container">
+            <h5 class="text-center mb-3">Sosial Media Masagi</h5>
+            <div class="row justify-content-center">
+                <div class="col-sm-1 d-flex justify-content-center mb-2">
+                    <a href="https://www.instagram.com/masagidelivery/"><i class="fa-brands fa-instagram fs-1"></i></a>
+                </div>
+                <div class="col-sm-1 d-flex justify-content-center mb-2">
+                    <a href="https://api.whatsapp.com/send/?phone=6281290667564&text&type=phone_number&app_absent=0"><i class="fa-brands fa-whatsapp fs-1"></i></a>
+                </div>
+                <div class="col-sm-1 d-flex justify-content-center py-1 mb-4">
+                    <a href="https://gofood.co.id/jakarta/restaurant/masagi-steak-perumahan-bekasi-timur-regensi-388f028a-258d-4f73-a4a2-f90b0b233894"><i class="fa-solid fa-circle fa-2xl" style="color: #63E6BE;"></i></a>
+                </div>
+                <div class="col-sm-1 d-flex justify-content-center py-1 mb-4">
+                    <a href="https://maps.app.goo.gl/GH8iTbrkUTD4nvGU6"><i class="fa-regular fa-map fa-2xl"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid bg-dark text-light">
+        <div class="container d-flex justify-content-between">
+            <label>&copy;2024 Masagi</label>
+            <a class="no-decoration" href="">Created By <span>Dimas Katon</span></a>
+            <!-- <label>Created By Dimas Katon</label> -->
+        </div>
+    </div>
+<!-- !Footer -->
+    
+    
+   
+</body>
+</html>

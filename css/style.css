@@ -1,0 +1,87 @@
+.warna1{
+    background-color: #2E236C ;
+}
+
+.warna2{
+    background-color: #433D8B;
+}    
+
+.warna3{
+    background-color: #17153B;
+}
+
+.warna4{
+    background-color: #C8ACD6;
+}
+
+.banner{
+    height: 75vh;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/Banner1.png');
+}
+
+.highlighted-kategori{
+    height: 250px;
+}
+
+.kategori-Steak{
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/Steak1.jpg');
+    background-size: cover; 
+    background-position: center;
+}
+
+.kategori-Katsu{
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/Katsu1.jpg');
+    background-size: cover; 
+    background-position: center;
+}
+
+.kategori-Mie{
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/Mie1.jpg');
+    background-size: cover; 
+    background-position: center;
+}
+
+.no-decoration{
+    text-decoration: none;
+    color: white;
+}
+
+.no-decoration:hover{
+    color: #433D8B;
+}
+
+.text-harga{
+    font-size: 20px;
+}
+
+.image-box{
+    height: 250px;
+}
+
+.image-box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.content-subscribe{
+    background-color: rgba(0,0,0,0.7);
+}
+
+.content-subscribe a {
+    color: whitesmoke;
+}
+
+.banner-produk {
+    height: 45vh;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/Banner1.png');
+    background-position: 55% 50%;
+}
+
+.produk-terkait {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
